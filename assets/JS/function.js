@@ -1,4 +1,4 @@
-// Buen dia profe, me tome la libertad de cambiar un poco la funcionalidad, haciendo que 
+// Buen dia profe, me tome la libertad de cambiar un poco la funcionalidad.
 function plus() {
     var currentNumber, numberPlus;
     currentNumber = parseFloat(document.querySelector("#amountValue").value);
