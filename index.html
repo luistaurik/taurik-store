@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://www.canva.com/design/DAFkt-YZ3Fg/-OcyMApfRsc3rUkKizuGNQ/view?utm_content=DAFkt-YZ3Fg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="icon" type="image/png" href="assets/images/taurikstorelogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstaic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Taurik store | Unbranded, nice</title>
+</head>
+<body>
+    <nav class="flex navbar">
+        <div class="flex nav-main">
+            <i class="fa-solid fa-bars"></i>
+            <h1 class="logo">TAURIK</h1>
+        </div>
+        <div class="flex nav-links">
+                <div>
+                    <input type="search" class="nav-search" placeholder="Search">
+                </div>
+                <div class="flex">
+                    <a href="#" class="flex nav-car"><p class="car-text">Car </p> 
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                    <p class="car-items" id="carItems">0</p>
+                </div>
+        </div>
+    </nav>
+    <main>
+        <section class="marketplace">
+            <div class="product">
+                <div class="card-image">
+                    <img id="product-image" class="product-image" src="https://cdn.shopify.com/s/files/1/0073/7699/4386/products/Unbranded__0042_CNeck_A_1_800x.jpg?v=1653449146" alt="Default Image">
+                </div>
+                <div class="card-description">
+                    <div class="card-primary">
+                        <h2>Basic Palm B</h2>
+                        <h4>Shirt</h4>
+                    </div>
+                    <div class="card-secunday">
+                        <h4 class="amount-tittle" id="amount-tittle">Amount</h4>
+                        <div class="flex math-controls">
+                            <button class="math-buttom" id="subtract" onclick="lessQuantity()">-</button>
+                            <input id="amountValue" onChange="calculateValue()" type="number" placeholder="1" class="amount" value="1">
+                            <button class="math-buttom" id="add" onclick="plusQuantity()">+</button>
+                        </div>
+                        <h4 class="color-tittle">Color</h4>
+                        <div class="flex color-options">
+                            <select id="colorValue" onChange="change()" class="colorInput">
+                                <option id="White">White</option>
+                                <option id="Black">Black</option>
+                                <option id="Camel">Camel</option>
+                                <option id="Blue">Blue</option>
+                                <option id="Mynt">Mynt</option>
+                            </select>
+                            <div id="finalColor" class="rectangle-color"></div>
+                        </div>
+                    </div>
+                    <div class="card-Tertiary">
+                        <h3>$</h3><h3 id="totalPrice" class="amount-result">43.99</h3>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button class="buy-button" id="buyButton" onclick="buy()">Buy</button>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="assets/JS/function.js"></script>
+    <script src="https://kit.fontawesome.com/6038ba0d74.js" crossorigin="anonymous"></script>
+</body>
+</html>

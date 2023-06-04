@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin: 0;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+button {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 1px;
+    border: solid 1px black;
+    background-color: white;
+    width: 96.5%;
+}
+
+input {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 1px;
+    border: solid 1px black;
+    background-color: white;
+    text-align: center;
+    width: 96%;
+}
+
+select {
+    display: left;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: solid 1px black;
+    background-color: white;
+    text-align: center;
+    width: 48%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    margin: 0;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+.nav-main {
+    justify-content: space-around;
+    width: 20vw;
+    padding-left: 20px;
+}
+
+.nav-search {
+    padding: 0 10px;
+}
+
+.nav-links {
+    justify-content: center;
+    width: 60vw;
+    padding-left: 30vw;
+
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.car-text {
+    padding-right: 10px;
+}
+
+.nav-search {
+    margin-right: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    text-align: left;
+}
+
+.nav-search::placeholder {
+    color: white;
+}
+
+.marketplace { 
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 0;
+    padding: 0.5vw;
+
+}
+
+.product {
+    margin: 5px 20px;
+    width: 33vw;
+}
+
+.card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image {
+    height: 27.5vw;
+    width: 100%;
+    object-fit: cover;
+    transition: height 200ms ease-in-out;
+}
+
+.product-image:hover {
+    height: 28vw;
+    object-fit: cover;
+}
+
+.card-primary {
+    margin: 10px 0;
+}
+
+.card-primary h2, h4 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.amount-tittle {
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+.math-controls {
+    justify-content: left;
+}
+
+.amount {
+    width: 59%;
+}
+
+input.amount::-webkit-inner-spin-button, input.amount::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  display: none;
+}
+
+.math-buttom {
+    width: 18%;
+}
+
+.math-buttom:hover {
+    background-color: lightgray;
+    -webkit-box-shadow: 4px 6px 15px -11px rgba(97,97,97,1);
+    -moz-box-shadow: 4px 6px 15px -11px rgba(97,97,97,1);
+    box-shadow: 4px 6px 15px -11px rgba(97,97,97,1);
+}
+
+.color-tittle {
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+.color-options {
+    margin: 0;
+    padding: 0;
+    justify-content: left;
+}
+
+.rectangle-color {
+    border-radius: 4px;
+    width: 48%;
+    height: 26px;
+    background-color: white;
+    box-shadow: inset 0px 0px 10px 5px rgba(82, 79, 79, 0.4);
+    margin: 0;
+    margin-left: 1%;
+    padding: 0;
+}
+
+.card-Tertiary {
+    border-radius: 2px;
+    border: 1px solid black;
+    justify-content: center;
+    width: 96%;
+    margin: 6px 0 0 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 36px;
+}
+
+.amount-result {
+    padding: 0;
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+.controls {
+    margin: 6px 0;
+}
+
+.buy-button {
+    margin: 0;    
+}
+
+.buy-button:hover {
+    background-color: lightgreen;
+}
